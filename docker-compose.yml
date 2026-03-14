@@ -1,0 +1,8 @@
+services:
+  faq:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./docs:/app/docs
+    restart: unless-stopped
