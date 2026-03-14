@@ -4,7 +4,7 @@ Siga os passos abaixo para começar a usar a plataforma em poucos minutos.
 
 ## Passo 1 — Crie sua conta
 
-Acesse a página de cadastro e preencha seus dados. Veja mais detalhes em [Criar uma conta](../conta/criar-conta.md).
+Acesse a página de cadastro e preencha seus dados.
 
 ## Passo 2 — Confirme seu e-mail
 

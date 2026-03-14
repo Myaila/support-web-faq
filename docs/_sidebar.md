@@ -3,5 +3,5 @@
 - [Início](/)
 
 - **Informações Gerais**
-  - [Visão Geral](geral/README.md)
+  - [Visão Geral](geral/index.md)
   - [Como começar](geral/como-comecar.md)

@@ -14,7 +14,7 @@ Use o menu lateral ou a **busca** acima para encontrar o que precisa.
 
 ## Categorias
 
-- 📋 [Informações Gerais](geral/README.md)
+- 📋 [Informações Gerais](geral/index.md)
 
 ---
 
