@@ -2,6 +2,7 @@
 
 - [Início](/)
 
-- **Informações Gerais**
-  - [Visão Geral](geral/index.md)
-  - [Como começar](geral/como-comecar.md)
+- **Suporte Online**
+  - [Informações Gerais](geral/index.md)
+  - [Sou Professor](professor/index.md)
+  - [Sou Aluno](estudante/index.md)

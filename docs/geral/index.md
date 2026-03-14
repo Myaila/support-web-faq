@@ -1,7 +1,5 @@
-# Informações Gerais
+# FAQ - Informações Gerais
 
 Nesta seção você encontra informações básicas sobre a nossa plataforma.
 
-## Perguntas Frequentes
-
-- [Como começar](geral/como-comecar.md)
+- [Como começar na Myaila](geral/como-comecar.md)
