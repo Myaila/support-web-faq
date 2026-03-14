@@ -1,8 +1,12 @@
 services:
+
   faq:
-    build: .
+    container_name: "myaila-faq"
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
     ports:
-      - "3000:3000"
+      - "${DOCKER_FAQ_PORT:-3005}:3000"
     volumes:
       - ./docs:/app/docs
     restart: unless-stopped

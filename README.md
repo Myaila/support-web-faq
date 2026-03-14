@@ -1,61 +1,39 @@
-# web-faq
+# Myaila - FAQ Support
 
-FAQ para clientes finais construído com [Docsify](https://docsify.js.org/).
-
-## Estrutura de arquivos
-
-```
-docs/
-├── index.html          # Entrada do Docsify
-├── .nojekyll           # Necessário para GitHub Pages
-├── README.md           # Página inicial
-├── _sidebar.md         # Menu lateral
-├── geral/
-│   ├── README.md
-│   ├── o-que-e-a-plataforma.md
-│   └── como-comecar.md
-├── conta/
-│   ├── README.md
-│   ├── criar-conta.md
-│   └── alterar-senha.md
-└── pagamento/
-    ├── README.md
-    ├── formas-de-pagamento.md
-    └── reembolso.md
-```
+FAQ for end customers built with [Docsify](https://docsify.js.org/).
 
 ## GitHub Pages
 
-1. Vá em **Settings** > **Pages** no repositório.
-2. Em **Source**, selecione o branch desejado e a pasta **`/docs`**.
-3. Clique em **Save**.
+1. Go to **Settings** > **Pages** in the repository.
+2. Under **Source**, select the desired branch and the **`/docs`** folder.
+3. Click **Save**.
 
-O FAQ ficará disponível em `https://<seu-usuario>.github.io/<seu-repositorio>/`.
+The FAQ will be available at `https://<your-username>.github.io/<your-repository>/`.
 
-## Visualizar localmente com Docker
+## Run Locally with Docker
 
-### Pré-requisitos
+### Prerequisites
 
-- [Docker](https://www.docker.com/) instalado.
+- [Docker](https://www.docker.com/) installed.
 
-### Subir o servidor
+### Start the Server
 
 ```bash
 docker compose up --build
 ```
 
-Acesse [http://localhost:3000](http://localhost:3000) no navegador.
+Open [http://localhost:3005](http://localhost:3005) in your browser.
 
-### Parar o servidor
+### Stop the Server
 
 ```bash
 docker compose down
 ```
 
-> As alterações nos arquivos dentro de `docs/` são refletidas automaticamente graças ao volume mapeado no `docker-compose.yml`.
+> Changes to files inside `docs/` are automatically reflected thanks to the volume mapped in `docker-compose.yml`.
 
-## Adicionar conteúdo
+## Adding Content
 
-1. Crie um arquivo `.md` na categoria correspondente, por exemplo `docs/geral/novo-artigo.md`.
-2. Adicione o link no `docs/_sidebar.md` para que apareça no menu.
-3. Faça commit e push — o GitHub Pages publicará automaticamente.
+1. Create a `.md` file in the corresponding category, e.g. `docs/geral/novo-artigo.md`.
+2. Add the link in `docs/_sidebar.md` so it appears in the menu.
+3. Commit and push on main branch — GitHub Pages will publish automatically.

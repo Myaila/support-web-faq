@@ -1,17 +1,21 @@
-# Bem-vindo à Central de Ajuda 👋
+<img src="_assets/images/logotipo.png" width="150px">
 
-Esta é a **Central de Ajuda** da nossa plataforma. Aqui você encontra respostas para as dúvidas mais comuns.
+---
+
+# Central Ajuda - Myaila 👋
+
+Esta é a **Central de Ajuda** online do Myaila. Aqui você encontra respostas para as dúvidas mais comuns.
 
 Use o menu lateral ou a **busca** acima para encontrar o que precisa.
+
+[Voltar ao site](https://myaila.com.br)
 
 ---
 
 ## Categorias
 
 - 📋 [Informações Gerais](geral/README.md)
-- 👤 [Minha Conta](conta/README.md)
-- 💳 [Pagamentos](pagamento/README.md)
 
 ---
 
-> 💡 Não encontrou o que precisava? Entre em contato com o nosso suporte.
+> 💡 Não encontrou o que precisa? Entre em contato pelo e-mail: [contato@myaila.com.br](mailto:contato@myaila.com.br)
