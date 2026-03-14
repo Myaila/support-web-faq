@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+printf "\e[1;34m[1/1] Docsfy Check:\e[0;0m\n"
+make docsify-check

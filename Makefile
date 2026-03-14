@@ -27,6 +27,20 @@ kill: down
 tty:
 	docker exec -it $(CONTAINER) sh
 
+docsify-check:
+	@docker exec $(CONTAINER) sh -c "\
+		docsify serve docs --port 4000 & \
+		PID=\$$!; \
+		sleep 2; \
+		if kill -0 \$$PID 2>/dev/null; then \
+			echo 'Docsify check passed.'; \
+			kill \$$PID; \
+		else \
+			echo 'Docsify check failed.'; \
+			exit 1; \
+		fi \
+	"
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Tools
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
