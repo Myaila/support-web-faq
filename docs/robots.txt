@@ -1,0 +1,6 @@
+User-agent: *
+Content-signal: search=yes,ai-train=no
+Allow: /
+Disallow: /_assets/
+
+Sitemap: https://suporte.myaila.com.br/sitemap.xml
